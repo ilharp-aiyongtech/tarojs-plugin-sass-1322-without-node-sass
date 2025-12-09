@@ -1,4 +1,4 @@
-const sass = require('sass')
+const sass = require('sass-embedded')
 const getBundleContent = require('./bundler')
 
 module.exports = function compileSass (content, file, config) {
